@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <h1>Прототип системы агрегации данных</h1>
+            </div>
+        </nav>
+    </header>
+    <section id="button" class="button">
+        <div class="container">
+            <h2 class="section-title">_</h2>
+            <div class="button-grid">
+                <div class="button-card" onclick="buttonclick()">
+                    <div class="button-image">ℹ️</div>
+                    <h3 onclick="click(this)">Получить информацию</h3>
+                    <p>Просмотреть дашборды, получить отчёты предприятий</p>
+                </div>
+                <div class="button-card" onclick="buttonclick()">
+                    <div class="button-image">📄</div>
+                    <h3>Загрузить отчёт</h3>
+                    <p>Заполнить данные о работе преприятия</p>
+                </div>
+                <div class="button-card" onclick="buttonclick()">
+                    <div class="button-image">🔍</div>
+                    <h3>О нас</h3>
+                    <p>Информация о команде</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/main.js"></script>
+</body>
+</html>
