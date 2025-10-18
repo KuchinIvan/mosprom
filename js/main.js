@@ -1,4 +1,4 @@
 function buttonclick(element) {
-    alert("kjeg");
+    alert("хуесос я");
     console.log(element);
 }
